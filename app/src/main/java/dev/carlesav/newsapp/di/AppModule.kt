@@ -7,9 +7,6 @@ import dagger.hilt.components.SingletonComponent
 import dev.carlesav.newsapp.feature_news.data.provider.NewsApi
 import dev.carlesav.newsapp.feature_news.data.repository.NewsRepository
 import dev.carlesav.newsapp.feature_news.domain.repository.NewsRepositoryImpl
-import dev.carlesav.newsapp.feature_news.domain.use_case.GetNewDetailUseCase
-import dev.carlesav.newsapp.feature_news.domain.use_case.GetNewsUseCase
-import dev.carlesav.newsapp.feature_news.domain.use_case.NewsUseCases
 import okhttp3.HttpUrl
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient
@@ -58,14 +55,5 @@ class AppModule {
     @Singleton
     fun provideNewsRepository(newsApi: NewsApi): NewsRepository {
         return NewsRepositoryImpl(newsApi)
-    }
-
-    @Provides
-    @Singleton
-    fun provideNewsUseCases(newsRepository: NewsRepository): NewsUseCases {
-        return NewsUseCases(
-            getNews = GetNewsUseCase(newsRepository),
-            getNewDetail = GetNewDetailUseCase(newsRepository)
-        )
     }
 }
