@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": "independent",
+        "name": "Independent"
+      },
+      "author": "Rob Merrick",
+      "title": "EU Commissioner attacks breach of international law after Brexit port checks halted in Northern Ireland - The Independent",
+      "description": "UK government under fire after attempting to distance itself from the DUP’s decision",
+      "url": "https://www.independent.co.uk/news/uk/politics/brexit-northern-ireland-ports-commissioner-b2006648.html",
+      "urlToImage": "https://static.independent.co.uk/2022/02/03/09/POLITICS%20Brexit%20EU%2009112055.jpg?quality=75&width=1200&auto=webp",
+      "publishedAt": "2022-02-03T10:19:45Z",
+      "content": "An EU Commissioner has condemned a halt to Brexit port checks in Northern Ireland as a breach of international law.\r\nCross-channel relations were plunged back into the freezer, after the Democratic U… [+2872 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sky.com"
+      },
+      "author": "Sophie Morris",
+      "title": "Paul Givan: Northern Ireland first minister preparing to resign - Sky News",
+      "description": "",
+      "url": "https://news.sky.com/story/paul-givan-northern-ireland-first-minister-preparing-to-resign-12531664",
+      "urlToImage": "https://e3.365dm.com/21/12/1600x900/skynews-stormont-paul-givan_5623251.jpg?20211222182028",
+      "publishedAt": "2022-02-03T10:01:44Z",
+      "content": "Northern Ireland First Minister Paul Givan is preparing to announce his resignation, a senior Democratic Unionist Party (DUP) source says.\r\nIt is thought an announcement will come by the end of the w… [+2909 chars]"
+    }
+  ]
+}
